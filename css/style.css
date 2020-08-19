@@ -1,0 +1,421 @@
+
+
+body{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  margin: 0;
+  padding: 0;
+  background: #eee9e8;
+  }
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow:visible;
+}
+.menu-bar{
+  margin: 0 auto;
+
+}
+.active{
+  background:#01070a;
+}
+.logo-name{
+  text-align: center;
+  padding-bottom: 50px;
+}
+nav{
+  height: 100px;
+  text-transform: capitalize;
+  background: linear-gradient(45deg, #0f3443, #34e89e);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+ .logo{
+   height:auto;
+   width: 108px;
+   padding:0 0 20px 80px;
+
+}
+.menu-bar .fa{
+  margin-right: 8px;
+}
+.fa fa-cadet-down{
+  margin-left: 5px;
+}
+nav ul{
+  padding: 23px 10px 0 0;
+  margin: 0;
+  float: right;
+}
+nav ul li{
+  background:#0f3443;
+  position: relative;
+  display: inline-block;
+  list-style: none;
+
+}
+nav ul li a{
+  font-family: arial,georgia;
+  text-decoration: none;
+  display: block;
+  padding: 0 10px;
+  line-height: 60px;
+  color: white;
+  word-spacing: -4px;
+  text-transform: capitalize;
+  letter-spacing: normal;
+
+}
+nav ul li a:hover{
+  background:  #34aee0;
+}
+nav ul ul{
+  display: none;
+  position: absolute;
+  top: 38px;
+
+}
+
+nav ul li:hover > ul{
+  display:block;
+}
+nav ul ul li{
+  position:relative;
+  width: 125px;
+  display: list-item;
+  float: none;
+  border-top: 1px white solid;
+  transition: 1s;
+  letter-spacing: normal;
+  text-align: center;
+  z-index: 1;
+
+}
+nav ul ul ul li{
+  position:relative;
+  top:-49px;
+  left: 125px;
+  line-height: 20px;
+
+
+}
+
+
+#gallery{
+
+  min-height:400px;
+  background: url('../images/factory.jpg') no-repeat 0 -400px;
+
+
+}
+.gall2{
+width: 50%;
+background: white;
+color: #0f3443;
+margin: auto;
+padding: 10px;
+text-align: center;
+
+}
+
+#newsletter{
+background:#0f3443;
+  min-height: 100px;
+  border-bottom: 1px white solid;
+}
+#newsletter h1{
+  float: left;
+  color: white;
+  margin: 10px;
+  padding-top: 28px;
+  padding-left: 10px;
+}
+#newsletter form{
+  float: right;
+  margin-top:15px;
+}
+#newsletter input[type="email"]{
+  height: 25px;
+  width: 250px;
+  margin-top: 15px;
+}
+.button-1{
+  padding-left: 20px;
+  height: 35px;
+  background: #00181b;
+  color: #ffffff;
+  padding-right: 20px;
+
+}
+
+#social{
+  margin-bottom: 10px;
+  min-height: 60px;
+  background: #0f3443;
+
+}
+#social .media{
+
+  float:right;
+  width: 100px;
+  height: 100px;
+  border: 1 #cccccc solid;
+
+
+
+}
+
+#social .media img{
+  width:30px;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+#social  h2{
+  float:left;
+   color: white;
+    font-size: 15px;
+  margin-left:  10px;
+  background: #ee402e;
+    height: 30px;
+padding-top: 1px;
+
+}
+footer{
+  text-align: center;
+  color: #ee402e;
+  margin: auto;
+  position: relative;
+  top: 30px;
+  padding-left: 570px;
+}
+/*sidebar*/
+#sidebar{
+  margin: 0;
+
+}
+#sidebar .side1{
+  background:#e0dcdc;
+  height:1000px;
+  width: 10%;
+  float: left;
+  position: relative;
+  left: 6px;
+  top: 57px;
+  border-radius: 15px;
+}
+/*frames*/
+#frames{
+  margin-top: 10px;
+}
+
+#frames .pic-host{
+  background:#ffffff;
+  height: 1000px;
+  width: 75%;
+  border:0;
+  position:relative;
+  margin: auto;
+  top: -3px;
+  border-radius: 15px;
+}
+#frames .pic-box{
+  position: relative;
+  left: 40px;
+  padding:5px;
+  float: left;
+}
+#frames .pic-box img{
+  width: 100px;
+  padding:5px;
+  border-radius:10px;
+  transition: 1s;
+  box-shadow: 2px 5px #888888
+}
+#frames .myimg{
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+}
+#frames .head{
+  background: #ed3623;
+  width: 20%;
+  height:40px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  top: -10px;
+   margin: auto;
+
+
+}
+#frames .head2{
+  background: #0f3443;
+  width: 20%;
+  height:40px;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  top: -10px;
+   margin: auto;
+
+}
+#words{
+  width: 50%;
+  margin: auto;
+  position: relative;
+  top:20px;
+}
+@media only screen and (max-width: 600px) {
+  nav{
+    height: 120px;
+    text-transform: capitalize;
+    background: linear-gradient(45deg, #0f3443, #34e89e);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+
+
+nav ul{
+  float: none;
+  text-align: center;
+  padding: 0;
+}
+nav ul li{
+  position: relative;
+  top: -93px;
+  left: 60px;
+}
+nav ul li a{
+  font-size: 12px;
+}
+.logo{
+position: relative;
+left: -70px;
+width: 100px;
+top: 6px;
+}
+nav ul ul ul li{
+  position:relative;
+  top:-125px;
+  left: 185px;
+  line-height: 20px;
+
+
+}
+nav ul ul{
+  display: none;
+  position: absolute;
+  top: 153px;
+  left: -60px;
+  width: 80px;
+}
+  #newsletter h1{
+
+    color: white;
+    margin: 10px;
+    padding-top: 10px;
+    padding-left: 100px;
+  }
+  #newsletter input[type="email"]{
+    height: 25px;
+    width: 300px;
+    position: relative;
+    top: -30px;
+    padding-right: 20px;
+  }
+  .button-1{
+    position: relative;
+    top: -30px;
+    padding-left: 25px;
+    height: 35px;
+    background: #00181b;
+    color: #ffffff;
+    padding-right: 20px;
+
+  }
+  #social{
+background: #fff;
+
+
+  }
+  #social .media{
+    float:left;
+    width: 60px;
+    border: 1 #cccccc solid;
+    padding-left:30px;
+    margin: 0;
+  position: relative;
+  top: -20px;
+    }
+  #social .media img{
+    width:30px;
+
+  }
+  footer{
+    text-align: center;
+    color: #ee402e;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    padding-left: 0px;
+
+  }
+  .gall2{
+  width: 40%;
+  height: 50%;
+  background: white;
+  color: #0f3443;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+
+  }
+  #frames .pic-host{
+    background:#ffffff;
+    height: 1500px;
+    width: 90%;
+    border:0;
+    position:relative;
+    margin: auto;
+    top: -3px;
+    border-radius: 15px;
+  }
+  #frames .pic-box{
+    position: relative;
+    left: 20px;
+    padding:5px;
+    float: left;
+  }
+  #frames .pic-box img{
+    width: 100px;
+    padding:5px;
+    border-radius:10px;
+    transition: 1s;
+    box-shadow: 2px 5px #888888
+  }
+  #frames .myimg{
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+  }
+  #frames .head{
+    background: #ed3623;
+    width: 30%;
+    height:40px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: -6px;
+     margin: auto;
+     font-size: 10px;
+
+  }
+  #frames .head2{
+    background: #0f3443;
+    width: 20%;
+    height:40px;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    top: -10px;
+     margin: auto;
+}
+}
