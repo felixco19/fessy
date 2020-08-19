@@ -187,7 +187,7 @@ footer{
   margin: auto;
   position: relative;
   top: 30px;
-  padding-left: 570px;
+  padding-left: 0;
 }
 /*sidebar*/
 #sidebar{
